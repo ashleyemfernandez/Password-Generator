@@ -14,10 +14,10 @@ function generatePassword() {
 }
 
 //confirming characters to add to password
-var lowercaseLetters = confirm("lowercaseletters?");
-var uppercaseLetters = confirm("uppercaseLetters?");
-var numbers = confirm("numbers?");
-var specialCharacters = confirm("specialCharacters?");
+confirm("lowercaseletters?");
+confirm("uppercaseLetters?");
+confirm("numbers?");
+confirm("specialCharacters?");
 
 //function adding variables into "allcharacters"
 var allcharacters = "";
